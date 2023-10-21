@@ -2,11 +2,15 @@
 <html>
 <head>
     <title>Web Calculator - Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
 </head>
 <body>
+    <form>
     <h1>Web Calculator - Result</h1>
-    <p>Answer X: {{ answerx }}</p>
-    <p>Answer Y: {{ answery }}</p>
+    <p>1st Value: {{ answerx }}</p>
+    <p>2nd Value: {{ answery }}</p>
     <a href="/">Go back</a>
+    </form>
 </body>
 </html>

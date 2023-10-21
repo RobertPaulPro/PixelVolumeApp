@@ -1,0 +1,64 @@
+/* Reset some default styles for consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a blue background color for the entire page */
+body {
+    background-color: #3498db;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Style the input form */
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the result container */
+.result {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the links */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* Style the links on hover */
+a:hover {
+    color: #1d6fa3;
+}
